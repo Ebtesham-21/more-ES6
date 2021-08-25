@@ -15,3 +15,6 @@ const expensive = products.filter(product => product.price > 100);
 console.log(expensive);
 const blacks = products.filter(product => product.color == 'black');
 console.log(blacks);
+
+const white = products.find(product => product.color == 'white');
+console.log(white);
